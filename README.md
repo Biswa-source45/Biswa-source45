@@ -41,16 +41,12 @@
 <tr>
 <td width="60%" valign="top">
 
-<sub>
-
 Full-Stack Developer specializing in **Generative AI, Agentic AI** and modern web applications. I build production-grade **AI voice agents, RAG pipelines and LLM-powered apps** with Python, FastAPI, LangChain, LangGraph, React, Next.js and Node.js.
 
 - 🤖 AI agent orchestration, prompt engineering, vector databases and **MCP**
 - ⚙️ REST APIs, WebSockets, JWT auth, webhooks and microservices
 - 🚀 Deploying scalable full-stack apps to the cloud
 - 🎓 BCA, Lakshya Institute of Technology, Bhubaneswar
-
-</sub>
 
 </td>
 <td width="40%" align="center" valign="middle">
@@ -110,7 +106,9 @@ Full-Stack Developer specializing in **Generative AI, Agentic AI** and modern we
     <td align="center"><b>Tools</b></td>
     <td><img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" height="40"/>
     <br/><img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GitHub%20Copilot-0ea5e9?style=flat-square&logo=githubcopilot&logoColor=white"/></td>
+    <img src="https://img.shields.io/badge/GitHub%20Copilot-0ea5e9?style=flat-square&logo=githubcopilot&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white"/></td>
   </tr>
 </table>
 
@@ -120,12 +118,8 @@ Full-Stack Developer specializing in **Generative AI, Agentic AI** and modern we
 
 ### <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="24"/> Achievements
 
-<sub>
-
 - 🥇 **1st Place, College Project Expo:** AI agents for an ERP system (FastAPI, LangGraph, ChromaDB) plus the landing website
 - 🥇 **1st Place, College Hackathon:** Led the backend of a code practice platform (Monaco Editor, Piston API, FastAPI, React)
-
-</sub>
 
 ---
 
