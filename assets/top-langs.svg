@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195">
+<style>
+ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+ .title{font-size:17px;font-weight:700;fill:#38bdf8}
+ .lbl{font-size:13.5px;fill:#c9d1d9}
+ .val{font-size:13.5px;font-weight:700;fill:#fff}
+ .muted{font-size:11.5px;fill:#8b949e}
+ .big{font-size:28px;font-weight:700;fill:#fff}
+ .row{opacity:0;animation:fade .6s ease forwards}
+ .grow{animation:grow 1.2s ease forwards}
+ @keyframes fade{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}
+ @keyframes grow{from{stroke-dashoffset:251}}
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+<rect x=".5" y=".5" width="449" height="194" rx="10" fill="#0d1117" stroke="#1f2937"/>
+<text x="25" y="36" class="title">Most Used Languages</text><mask id="m"><rect x="25" y="55" width="400" height="9" rx="4.5" fill="#fff"/></mask><g mask="url(#m)"><rect x="25.00" y="55" width="164.79" height="9" fill="#0ea5e9"/><rect x="189.29" y="55" width="124.21" height="9" fill="#10b981"/><rect x="312.99" y="55" width="59.86" height="9" fill="#38bdf8"/><rect x="372.35" y="55" width="33.32" height="9" fill="#34d399"/><rect x="405.17" y="55" width="15.05" height="9" fill="#0369a1"/><rect x="419.72" y="55" width="5.78" height="9" fill="#047857"/></g><g class="row" style="animation-delay:0.00s"><circle cx="30" cy="93.5" r="5" fill="#0ea5e9"/><text x="43" y="98" class="lbl">JavaScript</text><text x="210" y="98" text-anchor="end" class="muted">41.1%</text></g><g class="row" style="animation-delay:0.12s"><circle cx="240" cy="93.5" r="5" fill="#10b981"/><text x="253" y="98" class="lbl">HTML</text><text x="420" y="98" text-anchor="end" class="muted">30.9%</text></g><g class="row" style="animation-delay:0.24s"><circle cx="30" cy="123.5" r="5" fill="#38bdf8"/><text x="43" y="128" class="lbl">Go</text><text x="210" y="128" text-anchor="end" class="muted">14.8%</text></g><g class="row" style="animation-delay:0.36s"><circle cx="240" cy="123.5" r="5" fill="#34d399"/><text x="253" y="128" class="lbl">Vue</text><text x="420" y="128" text-anchor="end" class="muted">8.2%</text></g><g class="row" style="animation-delay:0.48s"><circle cx="30" cy="153.5" r="5" fill="#0369a1"/><text x="43" y="158" class="lbl">Python</text><text x="210" y="158" text-anchor="end" class="muted">3.6%</text></g><g class="row" style="animation-delay:0.60s"><circle cx="240" cy="153.5" r="5" fill="#047857"/><text x="253" y="158" class="lbl">CSS</text><text x="420" y="158" text-anchor="end" class="muted">1.3%</text></g>
+</svg>

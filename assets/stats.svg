@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195">
+<style>
+ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+ .title{font-size:17px;font-weight:700;fill:#38bdf8}
+ .lbl{font-size:13.5px;fill:#c9d1d9}
+ .val{font-size:13.5px;font-weight:700;fill:#fff}
+ .muted{font-size:11.5px;fill:#8b949e}
+ .big{font-size:28px;font-weight:700;fill:#fff}
+ .row{opacity:0;animation:fade .6s ease forwards}
+ .grow{animation:grow 1.2s ease forwards}
+ @keyframes fade{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}
+ @keyframes grow{from{stroke-dashoffset:251}}
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+<rect x=".5" y=".5" width="449" height="194" rx="10" fill="#0d1117" stroke="#1f2937"/>
+<text x="25" y="36" class="title">Biswabhusan's GitHub Stats</text><g class="row" style="animation-delay:0.00s"><circle cx="31" cy="65.5" r="4" fill="#38bdf8"/><text x="44" y="70" class="lbl">Total Stars:</text><text x="190" y="70" class="val">72</text></g><g class="row" style="animation-delay:0.15s"><circle cx="31" cy="90.5" r="4" fill="#34d399"/><text x="44" y="95" class="lbl">Total Commits:</text><text x="190" y="95" class="val">303</text></g><g class="row" style="animation-delay:0.30s"><circle cx="31" cy="115.5" r="4" fill="#38bdf8"/><text x="44" y="120" class="lbl">Pull Requests:</text><text x="190" y="120" class="val">0</text></g><g class="row" style="animation-delay:0.45s"><circle cx="31" cy="140.5" r="4" fill="#34d399"/><text x="44" y="145" class="lbl">Issues:</text><text x="190" y="145" class="val">0</text></g><g class="row" style="animation-delay:0.60s"><circle cx="31" cy="165.5" r="4" fill="#38bdf8"/><text x="44" y="170" class="lbl">Public Repos:</text><text x="190" y="170" class="val">30</text></g><circle cx="355" cy="105" r="40" fill="none" stroke="#1f2937" stroke-width="7"/><circle cx="355" cy="105" r="40" fill="none" stroke="url(#bg)" stroke-width="7" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="0" class="grow" transform="rotate(-90 355 105)"/><text x="355" y="110" text-anchor="middle" class="val" style="font-size:18px">334</text><text x="355" y="165" text-anchor="middle" class="muted">contributions</text>
+</svg>

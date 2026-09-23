@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+<style>
+ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+ .title{font-size:17px;font-weight:700;fill:#38bdf8}
+ .lbl{font-size:13.5px;fill:#c9d1d9}
+ .val{font-size:13.5px;font-weight:700;fill:#fff}
+ .muted{font-size:11.5px;fill:#8b949e}
+ .big{font-size:28px;font-weight:700;fill:#fff}
+ .row{opacity:0;animation:fade .6s ease forwards}
+ .grow{animation:grow 1.2s ease forwards}
+ @keyframes fade{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}
+ @keyframes grow{from{stroke-dashoffset:251}}
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+<rect x=".5" y=".5" width="899" height="179" rx="10" fill="#0d1117" stroke="#1f2937"/>
+<g class="row" style="animation-delay:0.00s"><text x="150.0" y="78" text-anchor="middle" class="big">334</text><text x="150.0" y="112" text-anchor="middle" class="lbl" style="fill:#38bdf8;font-weight:700">Total Contributions</text><text x="150.0" y="134" text-anchor="middle" class="muted">Feb 28, 2024 - Present</text></g><circle cx="450.0" cy="68" r="40" fill="none" stroke="#1f2937" stroke-width="6"/><circle cx="450.0" cy="68" r="40" fill="none" stroke="url(#bg)" stroke-width="6" stroke-linecap="round" stroke-dasharray="251" class="grow" transform="rotate(-90 450.0 68)"/><text x="450.0" y="78" text-anchor="middle" class="big">3</text><text x="450.0" y="138" text-anchor="middle" class="lbl" style="fill:#34d399;font-weight:700">Current Streak</text><text x="450.0" y="158" text-anchor="middle" class="muted">Sep 21, 2026 - Sep 23, 2026</text><g class="row" style="animation-delay:0.40s"><text x="750.0" y="78" text-anchor="middle" class="big">5</text><text x="750.0" y="112" text-anchor="middle" class="lbl" style="fill:#38bdf8;font-weight:700">Longest Streak</text><text x="750.0" y="134" text-anchor="middle" class="muted">Aug 09, 2026 - Aug 13, 2026</text></g><line x1="300" y1="30" x2="300" y2="150" stroke="#1f2937"/><line x1="600" y1="30" x2="600" y2="150" stroke="#1f2937"/>
+</svg>
