@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <style>.w{animation:m 10s linear infinite}@keyframes m{from{transform:translateX(0)}to{transform:translateX(-1200px)}}</style>
+  </defs>
+  <rect width="1200" height="90" fill="url(#g)"/>
+  <g class="w">
+    <path fill="#0d1117" d="M0 30 Q150 0 300 30 T600 30 T900 30 T1200 30 T1500 30 T1800 30 T2100 30 T2400 30 V0 H0Z"/>
+  </g>
+</svg>

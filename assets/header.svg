@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <style>
+      .t{font:700 46px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff;opacity:0;animation:f 1.2s ease forwards}
+      .s{font:500 19px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#e0f2fe;opacity:0;animation:f 1.2s .4s ease forwards;letter-spacing:1px}
+      .w1{animation:m 9s linear infinite}
+      .w2{animation:m 14s linear infinite reverse}
+      @keyframes f{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes m{from{transform:translateX(0)}to{transform:translateX(-1200px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="220" fill="url(#g)"/>
+  <g class="w2" opacity=".25">
+    <path fill="#0d1117" d="M0 170 Q150 140 300 170 T600 170 T900 170 T1200 170 T1500 170 T1800 170 T2100 170 T2400 170 V220 H0Z"/>
+  </g>
+  <g class="w1">
+    <path fill="#0d1117" d="M0 185 Q150 210 300 185 T600 185 T900 185 T1200 185 T1500 185 T1800 185 T2100 185 T2400 185 V220 H0Z"/>
+  </g>
+  <text x="600" y="92" text-anchor="middle" class="t">Biswabhusan Sahoo</text>
+  <text x="600" y="130" text-anchor="middle" class="s">FULL-STACK DEVELOPER  •  GENERATIVE &amp; AGENTIC AI</text>
+</svg>
