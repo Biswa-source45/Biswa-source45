@@ -46,7 +46,7 @@ Full-Stack Developer specializing in **Generative AI, Agentic AI** and modern we
 - 🤖 AI agent orchestration, prompt engineering, vector databases and **MCP**
 - ⚙️ REST APIs, WebSockets, JWT auth, webhooks and microservices
 - 🚀 Deploying scalable full-stack apps to the cloud
-- 🎓 BCA, Lakshya Institute of Technology, Bhubaneswar
+- 🎓 BCA, Utkal University, Bhubaneswar
 
 </td>
 <td width="40%" align="center" valign="middle">
