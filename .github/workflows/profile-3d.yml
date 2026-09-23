@@ -1,9 +1,12 @@
-name: GitHub-Profile-3D-Contrib
+name: Update Profile Cards
 
 on:
   schedule:
     - cron: "0 18 * * *"   # daily, ~11:30 PM IST
-  workflow_dispatch:        # lets you run it manually from the Actions tab
+  workflow_dispatch:        # run manually from the Actions tab
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/update-profile.yml"]
 
 permissions:
   contents: write
@@ -11,18 +14,26 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      - name: Generate stats, languages & streak cards
+        run: python3 scripts/generate_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "chore: update 3D contribution graph"; then
+          if git commit -m "chore: update profile cards"; then
             git push
           fi
