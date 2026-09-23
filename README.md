@@ -1,6 +1,6 @@
 <!-- ═════════════════════════ HEADER ═════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:10b981&height=170&section=header&text=Biswabhusan%20Sahoo&fontSize=38&fontColor=ffffff&fontAlignY=34&desc=Full-Stack%20Developer%20%E2%80%A2%20Generative%20%26%20Agentic%20AI&descAlignY=56&descSize=15&animation=fadeIn" width="100%" alt="header"/>
+  <img src="assets/header.svg" width="100%" alt="header"/>
 </p>
 
 <p align="center">
@@ -133,14 +133,14 @@ Full-Stack Developer specializing in **Generative AI, Agentic AI** and modern we
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Biswa-source45&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=34d399&text_color=c9d1d9" height="160" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biswa-source45&layout=compact&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="160" alt="top langs"/>
+<img src="assets/stats.svg" width="49%" alt="stats"/>
+<img src="assets/top-langs.svg" width="49%" alt="top languages"/>
 
-<img src="https://streak-stats.demolab.com?user=Biswa-source45&hide_border=true&background=0d1117&ring=38bdf8&fire=34d399&currStreakNum=ffffff&currStreakLabel=38bdf8&sideLabels=34d399&dates=8b949e&stroke=30363d" width="65%" alt="streak"/>
+<img src="assets/streak.svg" width="98%" alt="streak"/>
 
 </div>
 
-<!-- 3D graph generated daily by .github/workflows/profile-3d.yml -->
+<!-- All cards below are generated daily by .github/workflows/update-profile.yml -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg" />
   <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
@@ -152,5 +152,5 @@ Full-Stack Developer specializing in **Generative AI, Agentic AI** and modern we
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10b981,100:0ea5e9&height=100&section=footer" width="100%" alt="footer"/>
+  <img src="assets/footer.svg" width="100%" alt="footer"/>
 </p>
